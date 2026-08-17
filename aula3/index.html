@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da vida</title>
+  </head>
+  <body>
+    <canvas id="gameCanvas" width="500" height="500"></canvas>
+    <div class="controls">
+      <button id="startButton">Iniciar</button>
+      <button id="stepButton">Próxima geração</button>
+      <button id="randomButton">Aleatório</button>
+      <button id="clearButton">Limpar</button>
+    </div>
+    <p>
+      Geração:
+      <span id="generation">0</span>
+    </p>
+    
+    <script src="grid.js"></script>
+    <script src="canvas.js"></script>
+    <script src="game.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
