@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>Canvas exercicio 2 aula 4</title>
+    <style>
+    canvas {
+      border: 1px solid black;
+      display: block;
+      margin-bottom: 10px;
+    }
+    .controle {
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="canvas" width="500" height="500"></canvas>
+  <div class="controle">
+    <label>
+      R:
+      <input
+        id="red"
+        type="range"
+        min="0"
+        max="255"
+        value="255"
+      >
+      <span id="redValue">255</span>
+    </label>
+  </div>
+
+  <div class="controle">
+    <label>
+      G:
+      <input
+        id="green"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      >
+      <span id="greenValue">0</span>
+    </label>
+  </div>
+
+  <div class="controle">
+    <label>
+      B:
+      <input
+        id="blue"
+        type="range"
+        min="0"
+        max="255"
+        value="0"
+      >
+      <span id="blueValue">0</span>
+    </label>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
