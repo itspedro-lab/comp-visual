@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atividade 2</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: black;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        position: relative;
+        width: 600px;
+        height: 400px;
+        background-color: blueviolet;
+        border: 2px solid gray;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <canvas id="gameCanvas" width="600" height="400"></canvas>
+    </div>
+
+    <script src="./script.js" />
+  </body>
+</html>
